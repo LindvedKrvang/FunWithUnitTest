@@ -14,6 +14,7 @@ public class TextDecorator {
      * Can convert any sequence of letters to uppercase.
      *
      * @param input input to be converted to uppercase. Any character is a valid input.
+     * @return a new String where all characters are upper case
      */
     public String allCaps(String input) {
         String output = "";
@@ -33,7 +34,8 @@ public class TextDecorator {
     /**
      * Can convert any sequence of letters to lowercase.
      *
-     * @param input input to be converted to lowercase. Any character is a valid input.
+     * @param input to be converted to lowercase. Any character is a valid input.
+     * @return a new String where all characters are lower case
      */
     public String allLower(String input) {
         String output = "";
@@ -52,7 +54,8 @@ public class TextDecorator {
      /**
      * Can convert any sequence of letters to every second letter uppercase and the others converted to lowercase.
      *
-     * @param input input to be converted to interleaved upper and lowercase. Any character is a valid input.
+     * @param input input, any character is a valid input.
+     * @return A new string with each alternate upper and lower case characters
      */
     public String allUpperLower(String input) 
     {
